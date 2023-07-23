@@ -1,0 +1,26 @@
+{
+   "extends": ["prettier"],
+   "plugins": ["prettier", "react", "import"],
+   "rules": {
+      "import/no-unresolved": 0,
+      "import/prefer-default-export": "off",
+      "prettier/prettier": [
+         "error",
+         {
+            "tabWidth": 3,
+            "printWidth": 100,
+            "importOrder": [
+               "^(react/(.*)$)|^(react$)",
+               "^@components/(.*)$",
+               "<THIRD_PARTY_MODULES>",
+               "^(^@utils/(.*)$)|^(utils$)",
+               "^(^@typings/(.*)$)|^(typings$)",
+               "^[./]"
+            ],
+            "importOrderSeparation": true,
+            "importOrderSortSpecifiers": true,
+            "import/extensions": ["error", "never"]
+         }
+      ]
+   }
+}

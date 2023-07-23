@@ -1,0 +1,47 @@
+.form {
+   padding: 50px 40px 100px 40px;
+   width: 400px;
+   border-radius: 10px;
+   background: rgb(32, 32, 82);
+   background: linear-gradient(45deg, rgba(32, 32, 82, 1) 6%, rgba(77, 84, 131, 1) 70%);
+}
+
+.label {
+   padding-bottom: 5px;
+   letter-spacing: -1px;
+   font-size: 14px;
+   font-weight: 600;
+}
+
+.type {
+   padding-bottom: 60px;
+   font-weight: 500;
+   display: flex;
+   column-gap: 25px;
+   color: #9698a0;
+}
+
+.type:hover {
+   cursor: pointer;
+}
+
+.active {
+   padding-bottom: 10px;
+   border-bottom: 2px solid rgb(22, 85, 147);
+   color: white;
+}
+
+.button {
+   margin-top: 24px;
+   padding: 7px;
+   background: #0091ea;
+   color: white;
+   font-weight: 700;
+   border: none;
+   border-radius: 50px;
+   width: 100%;
+}
+
+.button:hover {
+   background: #0571b5;
+}

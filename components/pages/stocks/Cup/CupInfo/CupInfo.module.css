@@ -1,0 +1,50 @@
+.item {
+   position: relative;
+   padding: 5px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.reverse {
+   flex-direction: row-reverse;
+}
+
+.count {
+   font-weight: 600;
+   font-size: 18px;
+}
+
+.price {
+   font-size: 18px;
+   font-weight: 500;
+   letter-spacing: -1px;
+}
+
+.buy {
+   z-index: 2;
+   color: var(--color-green);
+}
+
+.sell {
+   z-index: 2;
+   color: var(--color-red);
+}
+
+.portion {
+   position: absolute;
+   top: 0;
+   height: 100%;
+   border-radius: 10px;
+   z-index: 1;
+}
+
+.portionLeft {
+   background-color: var(--color-green-darken);
+   right: 0;
+}
+
+.portionRight {
+   background-color: var(--color-red-darken);
+   left: 0;
+}

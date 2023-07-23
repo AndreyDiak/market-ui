@@ -1,0 +1,21 @@
+.label {
+   color: #d7d7d7;
+   margin-left: 12px;
+   letter-spacing: -0.5px;
+   font-size: 14px;
+}
+
+.container {
+   display: flex;
+   flex-direction: column;
+   row-gap: 8px;
+   margin-bottom: 16px;
+}
+
+.input {
+   padding-left: 16px;
+   color: white;
+   font-weight: normal;
+   border-radius: 50px;
+   background-color: rgb(121, 124, 145);
+}
